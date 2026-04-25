@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndiTiffin Services</title>
+  <style>
+    :root {
+      --bg: #fffaf5;
+      --card: #ffffff;
+      --text: #222222;
+      --muted: #666666;
+      --accent: #c95d2e;
+      --accent-dark: #a6471f;
+      --border: #eadfD6;
+      --soft: #fff1e8;
+      --shadow: 0 10px 30px rgba(0,0,0,0.08);
+      --radius: 18px;
+      --max: 1150px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(92%, var(--max));
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 250, 245, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent-dark);
+    }
+
+    .brand span {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 22px;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: var(--soft);
+      color: var(--accent-dark);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.8rem);
+      line-height: 1.1;
+      margin: 0 0 18px;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 700px;
+      margin-bottom: 24px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 26px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid var(--accent);
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dark);
+      border-color: var(--accent-dark);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--accent-dark);
+    }
+
+    .btn-secondary:hover {
+      background: var(--soft);
+    }
+
+    .hero-points {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .point {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      box-shadow: var(--shadow);
+      font-size: 0.95rem;
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, #fff7f1 0%, #ffffff 100%);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.35rem;
+    }
+
+    .hero-card ul {
+      padding-left: 18px;
+      color: var(--muted);
+      margin-bottom: 22px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      padding: 8px 12px;
+      background: var(--soft);
+      color: var(--accent-dark);
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    section {
+      padding: 36px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .section-title h2 {
+      margin-bottom: 8px;
+      font-size: 2rem;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted);
+    }
+
+    .menu-card .price {
+      color: var(--accent-dark);
+      font-weight: 700;
+      margin-top: 8px;
+      display: block;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .steps {
+      display: grid;
+      gap: 14px;
+    }
+
+    .step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .step-number {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+    }
+
+    .service-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .service-list li {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      box-shadow: var(--shadow);
+      color: var(--muted);
+    }
+
+    .cta {
+      padding: 46px 0 24px;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #c95d2e 0%, #a6471f 100%);
+      color: white;
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .cta-box p {
+      opacity: 0.92;
+      max-width: 720px;
+      margin: 12px auto 22px;
+    }
+
+    .cta-box .btn-primary,
+    .cta-box .btn-secondary {
+      border-color: white;
+    }
+
+    .cta-box .btn-primary {
+      background: white;
+      color: var(--accent-dark);
+    }
+
+    .cta-box .btn-secondary {
+      color: white;
+    }
+
+    footer {
+      padding: 26px 0 40px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .grid-3,
+      .two-col,
+      .hero-points {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Indi<span>Tiffin Services</span></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Fresh • Homestyle • NorthIndian  • Meal box</div>
+          <h1>Affordable Home-style Indian meals made for busy weekdays starting at just $7.99</h1>
+          <p>
+            IndiTiffin Services brings fresh, flavorful North Indian food to working professionals and families who want convenient, comforting meals without compromising on taste.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Order / Inquire</a>
+            <a class="btn btn-secondary" href="#menu">View Menu</a>
+          </div>
+          <div class="hero-points">
+            <div class="point"><strong>Fresh Daily</strong><br />Prepared with care in small batches.</div>
+            <div class="point"><strong>Affordable Meals</strong><br />Perfect for daily lunch boxes and dinner boxes.</div>
+            <div class="point"><strong>Delivery</strong><br />Luch boxes will be delivered till office without any delivery charges.  </div>
+            <div class="point"><strong>Pickup </strong><br />Dinner boxes to be picked up from a designated place.  </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Why customers choose us</h3>
+       <ul>
+           <li>Extremely affordable meal boxes
+       <ul>
+           <li>Veg Lunch - $8.99 + taxes</li>
+           <li>Non-veg Lunch - $9.99 + taxes</li>
+           <li>Veg Dinner - $7.99 + taxes</li>
+           <li>Non-veg Dinner - $8.99 + taxes</li>
+      </ul>
+  </li>
+  <li>Made fresh every morning</li>
+  <li>Suitable everyday office lunch and at home dinner</li>
+  <li>No delivery charges for office lunch delivery</li>
+</ul>
+          <div class="tag-row">
+            <span class="tag">Veg Options</span>
+            <span class="tag">Non-Veg Specials</span>
+            <span class="tag">Weekend Specials</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About IndiTiffin Services</h2>
+          <p>
+            We focus on delivering practical, satisfying Indian meals for people who want the comfort of home-cooked food during the workweek.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p>
+              To make fresh Indian meals more accessible for busy professionals, students, and families through dependable tiffin-style service.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Our Style</h3>
+            <p>
+              Balanced meals, practical portions, and familiar flavors that feel homemade and comforting.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Our Promise</h3>
+            <p>
+              Simple service, quality ingredients, and a focus on consistency, convenience, and customer satisfaction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <div class="section-title">
+          <h2>Lunch Menu</h2>
+          <p>
+            We serve Lunch boxed from Monday to Friday, Free office delivery in Windward parkway offices.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card menu-card">
+            <h3>Weekday Veg Lunch Box</h3>
+            <p>Rice or Pulao , roti, dal or Beans, vegetable curry.</p>
+            <span class="price">Starting at $8.99</span>
+          </div>
+          <div class="card menu-card">
+            <h3>Weekday Non-Veg Box</h3>
+            <p>Rice or Pulao , roti, dal or Beans, non-veg curry</p>
+            <span class="price">Starting at $9.99</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+      <div class="container">
+        <div class="section-title">
+          <h2>Dinner Menu</h2>
+          <p>
+            We serve Dinner boxed from Monday to Friday, pick-up only.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card menu-card">
+            <h3>Weekday Veg Lunch Box</h3>
+            <p>Rice or Pulao , roti, dal or Beans, vegetable curry.</p>
+            <span class="price">Starting at $7.99</span>
+          </div>
+          <div class="card menu-card">
+            <h3>Weekday Non-Veg Box</h3>
+            <p>Rice or Pulao , roti, dal or Beans, non-veg curry</p>
+            <span class="price">Starting at $8.99</span>
+          </div>
+          <div class="card menu-card">
+            <h3>Weekend Special (Friday)</h3>
+            <p>Rice or Pulao , roti, dal or Beans, 1non-veg curry, 1Veg curry, 1Desert</p>
+            <span class="price">Starting at $11.99</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container two-col">
+        <div>
+          <div class="section-title" style="text-align:left; margin-bottom:18px;">
+            <h2>Our Services</h2>
+            <p>Built for flexibility and convenience.</p>
+          </div>
+          <ul class="service-list">
+            <li>Daily tiffin service for individuals</li>
+             <li>Office lunch delivery with no delivery fees</li>
+            <li>Dinner meal boxes available for pickup at a designated location</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Ideal for</h3>
+          <p>
+  Perfect for professionals working long hours, students seeking affordable meals, and small groups who want fresh Indian food without the hassle of daily cooking. We take care of your everyday lunch and dinner, so you don’t have to worry about what to cook. Save your time and energy for what truly matters, while we handle your meals with care.
+          </p>
+         </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="container">
+        <div class="section-title">
+          <h2>How It Works</h2>
+        </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div>
+              <h3>Place an order</h3>
+              <p>We share the next day’s menu in our WhatsApp group. Simply check the menu, place your order, and complete the payment via Cash App or Venmo.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <div>
+              <h3>Pickup or delivery</h3>
+              <p>Lunch is delivered to your office in the Windward Parkway area. Dinner is available for pickup from a designated location.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <div>
+              <h3>Enjoy fresh food</h3>
+              <p>Enjoy a simple, fresh, and homestyle Indian meal prepared with care.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Ready to share your menu with customers?</h2>
+          <p>
+            Update this page with your phone number, WhatsApp link, delivery areas, and weekly menu to make it live for IndiTiffin Services.
+          </p>
+          <div class="hero-actions" style="justify-content:center; margin-bottom:0;">
+            <a class="btn btn-primary" href="mailto:hello@inditiffinservices.com">Email Us</a>
+            <a class="btn btn-secondary" href="tel:+10000000000">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 IndiTiffin Services. All rights reserved.<br />
+      This is a read-only informational website template.
+    </div>
+  </footer>
+</body>
+</html>
