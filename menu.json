@@ -1,0 +1,45 @@
+﻿{
+  "menuForTheDay": [
+    {
+      "title": "Non-veg Lunch Box",
+      "items": [
+        "Chicken Curry",
+        "Dal Tadka",
+        "White Rice",
+        "Roti (Indian flatbread)"
+      ]
+    },
+    {
+      "title": "Veg Lunch Box",
+      "items": [
+        "Matar Paneer",
+        "Dal Tadka",
+        "White Rice",
+        "Roti (Indian flatbread)"
+      ]
+    },
+    {
+      "title": "Add-ons",
+      "items": [
+        "Roti - $0.75 per piece",
+        "Rice - $1.00",
+        "Water Bottle - $1.00",
+        "Coke - $1.00"
+      ]
+    }
+  ],
+  "lunchBoxPrices": [
+    {
+      "title": "Veg Meal Box",
+      "price": "$7.99"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$10.99"
+    },
+    {
+      "title": "Weekend Special (Friday)",
+      "price": "$11.99"
+    }
+  ]
+}
