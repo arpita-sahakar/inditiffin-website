@@ -1,10 +1,10 @@
-﻿{
+{
   "menuForTheDay": [
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Paneer Ghotala",
-        "Moong Dal",
+        "Aloo Gobi Matar Paneer Tawa Fry",
+        "Green Split Moong Dal",
         "Rice",
         "Roti"
       ]
@@ -12,8 +12,8 @@
     {
       "title": "Non-veg Lunch Box",
       "items": [
-        "Kolhapuri Egg Curry",
-        "Moong Dal",
+        "Malabar Prawn Curry",
+        "Green Split Moong Dal",
         "Rice",
         "Roti"
       ]
