@@ -1,21 +1,21 @@
 ﻿{
   "menuForTheDay": [
     {
-      "title": "Non-veg Lunch Box",
+      "title": "Veg Lunch Box",
       "items": [
-        "Chicken Curry",
-        "Dal Tadka",
-        "White Rice",
-        "Roti (Indian flatbread)"
+        "Paneer Ghotala",
+        "Moong Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
-      "title": "Veg Lunch Box",
+      "title": "Non-veg Lunch Box",
       "items": [
-        "Matar Paneer",
-        "Dal Tadka",
-        "White Rice",
-        "Roti (Indian flatbread)"
+        "Kolhapuri Egg Curry",
+        "Moong Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -31,11 +31,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.99"
+      "price": "$8.50"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$10.99"
+      "price": "$8.99"
     },
     {
       "title": "Weekend Special (Friday)",
