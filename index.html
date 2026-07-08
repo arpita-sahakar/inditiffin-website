@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -499,33 +499,10 @@
               meal box.
             </p> -->
           </div>
-          <div class="grid-3">
+          <div class="grid-3" id="daily-menu">
             <div class="card">
-              <h3>Non-veg Lunch Box</h3>
-              <ul>
-                <li>Chicken Curry</li>
-                <li>Dal Tadka</li>
-                <li>White Rice</li>
-                <li>Roti (Indian flatbread)</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h3>Veg Lunch Box</h3>
-              <ul>
-                <li>Matar Paneer</li>
-                <li>Dal Tadka</li>
-                <li>White Rice</li>
-                <li>Roti (Indian flatbread)</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h3>Add-ons</h3>
-              <ul>
-                <li>Roti – $0.75 per piece</li>
-                <li>Rice – $1.00</li>
-                <li>Water Bottle – $1.00</li>
-                <li>Coke – $1.00</li>
-              </ul>
+              <h3>Menu loading...</h3>
+              <p>Please refresh the page in a moment.</p>
             </div>
           </div>
         </div>
@@ -565,24 +542,10 @@
             Alpharetta offices in the Windward Parkway area.
           </p>
         </div>
-        <div class="grid-3">
+        <div class="grid-3" id="lunch-prices">
           <div class="card menu-card">
-            <h3>Veg Meal Box</h3>
-            <!-- <p>Rice or pulao, roti, dal or beans, and vegetable curry.</p> -->
-            <span class="price">Price: $7.99</span>
-          </div>
-          <div class="card menu-card">
-            <h3>Non-Veg Meal Box</h3>
-            <!-- <p>Rice or pulao, roti, dal or beans, and non-veg curry.</p> -->
-            <span class="price">Price: $10.99</span>
-          </div>
-          <div class="card menu-card">
-            <h3>Weekend Special (Friday)</h3>
-            <!-- <p>
-              Rice or pulao, roti, dal or beans, 1 non-veg curry, 1 veg curry, 1
-              dessert
-            </p> -->
-            <span class="price">Price: $11.99</span>
+            <h3>Prices loading...</h3>
+            <p>Please refresh the page in a moment.</p>
           </div>
         </div>
       </div>
@@ -624,7 +587,7 @@
             <p>
               Perfect for professionals working long hours, who want fresh
               Indian food without the hassle of daily cooking. We take care of
-              your everyday lunch, so you don’t have to worry about what to
+              your everyday lunch, so you don't have to worry about what to
               cook. Save your time and energy for what truly matters, while we
               handle your meals with care.
             </p>
@@ -714,5 +677,68 @@
         © 2026 IndiTiffin Services. All rights reserved.<br />
       </div>
     </footer>
+    <script>
+      function textElement(tagName, text, className) {
+        const element = document.createElement(tagName);
+        element.textContent = text;
+
+        if (className) {
+          element.className = className;
+        }
+
+        return element;
+      }
+
+      function renderDailyMenu(menuItems) {
+        const menuContainer = document.getElementById("daily-menu");
+        menuContainer.innerHTML = "";
+
+        menuItems.forEach((box) => {
+          const card = document.createElement("div");
+          card.className = "card";
+          card.appendChild(textElement("h3", box.title));
+
+          const list = document.createElement("ul");
+          box.items.forEach((item) => {
+            list.appendChild(textElement("li", item));
+          });
+
+          card.appendChild(list);
+          menuContainer.appendChild(card);
+        });
+      }
+
+      function renderLunchPrices(priceItems) {
+        const priceContainer = document.getElementById("lunch-prices");
+        priceContainer.innerHTML = "";
+
+        priceItems.forEach((box) => {
+          const card = document.createElement("div");
+          card.className = "card menu-card";
+          card.appendChild(textElement("h3", box.title));
+          card.appendChild(textElement("span", `Price: ${box.price}`, "price"));
+          priceContainer.appendChild(card);
+        });
+      }
+
+      fetch("menu.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Menu file could not be loaded.");
+          }
+
+          return response.json();
+        })
+        .then((data) => {
+          renderDailyMenu(data.menuForTheDay);
+          renderLunchPrices(data.lunchBoxPrices);
+        })
+        .catch(() => {
+          document.getElementById("daily-menu").innerHTML =
+            '<div class="card"><h3>Menu unavailable</h3><p>Please check back soon.</p></div>';
+          document.getElementById("lunch-prices").innerHTML =
+            '<div class="card menu-card"><h3>Prices unavailable</h3><p>Please check back soon.</p></div>';
+        });
+    </script>
   </body>
 </html>
