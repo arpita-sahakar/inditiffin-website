@@ -3,8 +3,7 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Aloo Gobi Matar Paneer Tawa Fry",
-        "Green Split Moong Dal",
+        "Rajma Masala (Full Portion)",
         "Rice",
         "Roti"
       ]
@@ -12,8 +11,8 @@
     {
       "title": "Non-veg Lunch Box",
       "items": [
-        "Malabar Prawn Curry",
-        "Green Split Moong Dal",
+        "Mughlai Chicken Masala (Boneless)",
+        "Rajma (1/2 Portion)",
         "Rice",
         "Roti"
       ]
@@ -31,11 +30,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.50"
+      "price": "$6.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$8.99"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
