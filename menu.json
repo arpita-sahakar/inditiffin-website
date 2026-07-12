@@ -3,7 +3,8 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Rajma Masala (Full Portion)",
+        "Shahi Bhindi Masala",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -11,8 +12,8 @@
     {
       "title": "Non-veg Lunch Box",
       "items": [
-        "Mughlai Chicken Masala (Boneless)",
-        "Rajma (1/2 Portion)",
+        "Tilapia Bhuna Masala (Boneless Fish)",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -30,7 +31,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$6.95"
+      "price": "$7.95"
     },
     {
       "title": "Non-Veg Meal Box",
