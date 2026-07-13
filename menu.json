@@ -3,19 +3,15 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Shahi Bhindi Masala",
-        "Masoor Dal",
-        "Rice",
-        "Roti"
+        "Veg Biryani",
+        "Raita"
       ]
     },
     {
       "title": "Non-veg Lunch Box",
       "items": [
-        "Tilapia Bhuna Masala (Boneless Fish)",
-        "Masoor Dal",
-        "Rice",
-        "Roti"
+        "Chicken Dum Biryani",
+        "Raita"
       ]
     },
     {
@@ -31,7 +27,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$9.95"
     },
     {
       "title": "Non-Veg Meal Box",
