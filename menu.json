@@ -3,19 +3,15 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Paneer Butter Masala",
-        "Dal",
-        "Rice",
-        "Roti"
+        "Veg Manchurian",
+        "Veg Fried Rice"
       ]
     },
     {
       "title": "Non-veg Lunch Box",
       "items": [
-        "Chicken Butter Masala",
-        "Dal",
-        "Rice",
-        "Roti"
+        "Chicken Manchurian",
+        "Chicken Fried Rice"
       ]
     },
     {
@@ -31,7 +27,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.99"
+      "price": "$9.95"
     },
     {
       "title": "Non-Veg Meal Box",
