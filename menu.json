@@ -3,15 +3,20 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Veg Manchurian",
-        "Veg Fried Rice"
+        "Dahi Bhindi",
+        "Masoor Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
-      "title": "Non-veg Lunch Box",
+      "title": "Non-Veg Lunch Box",
       "items": [
-        "Chicken Manchurian",
-        "Chicken Fried Rice"
+        "Amritsari Fish Fry",
+        "Dahi Bhindi",
+        "Masoor Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -27,7 +32,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$9.95"
+      "price": "$7.95"
     },
     {
       "title": "Non-Veg Meal Box",
