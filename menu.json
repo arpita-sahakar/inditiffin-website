@@ -3,18 +3,15 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Dahi Bhindi",
-        "Masoor Dal",
-        "Rice",
+        "Goan-Style Paneer Curry",
+        "Flavored Vegetable Yakhni Pulao",
         "Roti"
       ]
     },
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Amritsari Fish Fry",
-        "Dahi Bhindi",
-        "Masoor Dal",
+        "Goan-Style Chicken Curry",
         "Rice",
         "Roti"
       ]
@@ -32,7 +29,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$9.95"
     },
     {
       "title": "Non-Veg Meal Box",
