@@ -3,8 +3,8 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Aloo Gobi Matar Ki Sukhi Sabji",
-        "Mixed Toor & Masoor Dal",
+        "Paneer Chilli Milli (shredded paneer tossed with onions, tomatoes, melted cheese, and a flavorful blend of Indian spices)",
+        "Green Split Dal",
         "Rice",
         "Roti"
       ]
@@ -12,8 +12,8 @@
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Egg Kasa",
-        "Mixed Toor & Masoor Dal",
+        "Chicken Chilli Milli (shredded chicken tossed with onions, tomatoes, melted cheese, and a flavorful blend of Indian spices)",
+        "Green Split Dal",
         "Rice",
         "Roti"
       ]
@@ -31,7 +31,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.97"
+      "price": "$8.95"
     },
     {
       "title": "Non-Veg Meal Box",
