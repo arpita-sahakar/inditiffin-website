@@ -3,15 +3,17 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Goan-Style Paneer Curry",
-        "Flavored Vegetable Yakhni Pulao",
+        "Aloo Gobi Matar Ki Sukhi Sabji",
+        "Mixed Toor & Masoor Dal",
+        "Rice",
         "Roti"
       ]
     },
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Goan-Style Chicken Curry",
+        "Egg Kasa",
+        "Mixed Toor & Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -29,7 +31,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$9.95"
+      "price": "$7.97"
     },
     {
       "title": "Non-Veg Meal Box",
