@@ -3,19 +3,17 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Paneer Chilli Milli (shredded paneer tossed with onions, tomatoes, melted cheese, and a flavorful blend of Indian spices)",
-        "Green Split Dal",
-        "Rice",
-        "Roti"
+        "Veg Keema",
+        "Khuska Pulao",
+        "Mirchi Ka Salan"
       ]
     },
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Chicken Chilli Milli (shredded chicken tossed with onions, tomatoes, melted cheese, and a flavorful blend of Indian spices)",
-        "Green Split Dal",
-        "Rice",
-        "Roti"
+        "Punjabi Style Mutton Keema",
+        "Khuska Pulao",
+        "Mirchi Ka Salan"
       ]
     },
     {
@@ -31,11 +29,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.95"
+      "price": "$9.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "price": "$10.95"
     },
     {
       "title": "Weekend Special (Friday)",
