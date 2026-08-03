@@ -3,17 +3,19 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Veg Keema",
-        "Khuska Pulao",
-        "Mirchi Ka Salan"
+        "Lasooni Palak",
+        "Toor Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Punjabi Style Mutton Keema",
-        "Khuska Pulao",
-        "Mirchi Ka Salan"
+        "North East Style Chicken Curry (made with vegetable oil, whole chicken cut into small pieces, medium-spicy with a light gravy)",
+        "Toor Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -29,11 +31,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$9.95"
+      "price": "$8.50"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$10.95"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
