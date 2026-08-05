@@ -3,8 +3,8 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Lasooni Palak",
-        "Toor Dal",
+        "Gobi Musallam",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -12,8 +12,8 @@
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "North East Style Chicken Curry (made with vegetable oil, whole chicken cut into small pieces, medium-spicy with a light gravy)",
-        "Toor Dal",
+        "Cheese Anda Keema Masala",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -35,7 +35,7 @@
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "price": "$8.50"
     },
     {
       "title": "Weekend Special (Friday)",
