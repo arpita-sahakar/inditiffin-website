@@ -3,17 +3,20 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Veg Biryani (Vegetables & Paneer)",
-        "Raita",
-        "Salan"
+        "Kadai Paneer",
+        "Dal",
+        "Rice",
+        "Roti",
+        "Gulab Jamun"
       ]
     },
     {
       "title": "Non-Veg Lunch Box",
       "items": [
-        "Chicken Biryani",
-        "Raita",
-        "Salan"
+        "Kadai Chicken",
+        "Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -29,7 +32,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$9.95"
+      "price": "$8.95"
     },
     {
       "title": "Non-Veg Meal Box",
