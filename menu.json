@@ -3,18 +3,9 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Kadai Paneer",
-        "Dal",
-        "Rice",
-        "Roti",
-        "Gulab Jamun"
-      ]
-    },
-    {
-      "title": "Non-Veg Lunch Box",
-      "items": [
-        "Kadai Chicken",
-        "Dal",
+        "Hari Pyaz Ki Sabji (spring onions cooked with potatoes)",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Low",
+        "Rajma Masala",
         "Rice",
         "Roti"
       ]
@@ -32,11 +23,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "price": "$8.50"
     },
     {
       "title": "Weekend Special (Friday)",
