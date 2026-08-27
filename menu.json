@@ -3,9 +3,9 @@
     {
       "title": "Veg Lunch Box",
       "items": [
-        "Gajar Matar Ki Chatpati Sabji",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Low",
-        "Masoor Dal",
+        "Matar Paneer",
+        "Heat: 2.5/5 | Spices: 2.5/5 | Oil: Low",
+        "Dal Makhani",
         "Rice",
         "Roti"
       ]
@@ -23,7 +23,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.50"
+      "price": "$9.00"
     },
     {
       "title": "Weekend Special (Friday)",
