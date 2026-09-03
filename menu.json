@@ -1,21 +1,11 @@
 {
   "menuForTheDay": [
     {
-      "title": "Veg Lunch Box - Option 1",
+      "title": "Veg Lunch Box",
       "items": [
-        "Dahi Besan Shimla Mirch Ki Sabji",
-        "Heat: 3/5 | Spices: 2/5 | Oil: Low",
-        "Masoor Dal",
-        "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Veg Lunch Box - Option 2",
-      "items": [
-        "Bhuna Karela",
+        "Veg Kolhapuri",
         "Heat: 3/5 | Spices: 3/5 | Oil: Low",
-        "Masoor Dal",
+        "Dalma Tadka",
         "Rice",
         "Roti"
       ]
@@ -32,11 +22,7 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Meal Box - Option 1",
-      "price": "$8.50"
-    },
-    {
-      "title": "Veg Meal Box - Option 2",
+      "title": "Veg Meal Box",
       "price": "$8.50"
     },
     {
