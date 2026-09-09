@@ -1,11 +1,21 @@
 {
   "menuForTheDay": [
     {
+      "title": "Non-Veg Lunch Box",
+      "items": [
+        "Chicken Chilli Milli (shredded chicken cooked with tomatoes, onions, Indian spices, loaded cheese, and a hint of bell peppers)",
+        "Heat: 3/5 | Spices: 2.5/5 | Oil: Medium-Low",
+        "Kadhi Pakoda (small portion)",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
       "title": "Veg Lunch Box",
       "items": [
-        "Veg Kolhapuri",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Low",
-        "Dalma Tadka",
+        "Dhaba-Style Baingan Bharta",
+        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
+        "Kadhi Pakoda (regular portion)",
         "Rice",
         "Roti"
       ]
@@ -21,6 +31,10 @@
     }
   ],
   "lunchBoxPrices": [
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$9.95"
+    },
     {
       "title": "Veg Meal Box",
       "price": "$8.50"
