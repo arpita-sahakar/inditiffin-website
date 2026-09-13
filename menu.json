@@ -1,23 +1,20 @@
 {
   "menuForTheDay": [
     {
-      "title": "Non-Veg Lunch Box",
+      "title": "Veg Mini Meal",
       "items": [
-        "Chicken Chilli Milli (shredded chicken cooked with tomatoes, onions, Indian spices, loaded cheese, and a hint of bell peppers)",
-        "Heat: 3/5 | Spices: 2.5/5 | Oil: Medium-Low",
-        "Kadhi Pakoda (small portion)",
-        "Rice",
-        "Roti"
+        "Malai Kofta (small portion)",
+        "Dal (regular portion)",
+        "Rice (3/4 portion)"
       ]
     },
     {
-      "title": "Veg Lunch Box",
+      "title": "Veg Regular",
       "items": [
-        "Dhaba-Style Baingan Bharta",
-        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
-        "Kadhi Pakoda (regular portion)",
-        "Rice",
-        "Roti"
+        "Malai Kofta (regular portion)",
+        "Dal (regular portion)",
+        "Rice (2/4 portion)",
+        "Roti (2 pcs)"
       ]
     },
     {
@@ -32,12 +29,12 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "title": "Veg Mini Meal",
+      "price": "$6.95"
     },
     {
-      "title": "Veg Meal Box",
-      "price": "$8.50"
+      "title": "Veg Regular",
+      "price": "$8.95"
     },
     {
       "title": "Weekend Special (Friday)",
