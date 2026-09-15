@@ -3,7 +3,8 @@
     {
       "title": "Veg Mini Meal",
       "items": [
-        "Malai Kofta (small portion)",
+        "Lasooni Palak (small portion)",
+        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
         "Dal (regular portion)",
         "Rice (3/4 portion)"
       ]
@@ -11,7 +12,18 @@
     {
       "title": "Veg Regular",
       "items": [
-        "Malai Kofta (regular portion)",
+        "Lasooni Palak (regular portion)",
+        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
+        "Dal (regular portion)",
+        "Rice (2/4 portion)",
+        "Roti (2 pcs)"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Mutton Kosha",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
         "Dal (regular portion)",
         "Rice (2/4 portion)",
         "Roti (2 pcs)"
@@ -34,7 +46,11 @@
     },
     {
       "title": "Veg Regular",
-      "price": "$8.95"
+      "price": "$8.50"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$10.99"
     },
     {
       "title": "Weekend Special (Friday)",
