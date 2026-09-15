@@ -3,7 +3,7 @@
     {
       "title": "Veg Mini Meal",
       "items": [
-        "Lasooni Palak (small portion)",
+        "Mixed Vegetables in Coconut Curry (small portion)",
         "Heat: 3/5 | Spices: 2/5 | Oil: Less",
         "Dal (regular portion)",
         "Rice (3/4 portion)"
@@ -12,21 +12,23 @@
     {
       "title": "Veg Regular",
       "items": [
-        "Lasooni Palak (regular portion)",
+        "Mixed Vegetables in Coconut Curry (regular portion)",
         "Heat: 3/5 | Spices: 2/5 | Oil: Less",
         "Dal (regular portion)",
         "Rice (2/4 portion)",
-        "Roti (2 pcs)"
+        "Roti (2 pcs)",
+        "Dessert - Shahi Tukda"
       ]
     },
     {
       "title": "Non-Veg",
       "items": [
-        "Mutton Kosha",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
+        "Shrimp in Coconut Curry",
+        "Heat: 3/5 | Spices: 2/5 | Oil: Medium",
         "Dal (regular portion)",
         "Rice (2/4 portion)",
-        "Roti (2 pcs)"
+        "Roti (2 pcs)",
+        "Dessert - Shahi Tukda"
       ]
     },
     {
@@ -50,7 +52,7 @@
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$10.99"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
