@@ -1,34 +1,21 @@
 {
   "menuForTheDay": [
     {
-      "title": "Veg Mini Meal",
-      "items": [
-        "Mixed Vegetables in Coconut Curry (small portion)",
-        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
-        "Dal (regular portion)",
-        "Rice (3/4 portion)"
-      ]
-    },
-    {
       "title": "Veg Regular",
       "items": [
-        "Mixed Vegetables in Coconut Curry (regular portion)",
-        "Heat: 3/5 | Spices: 2/5 | Oil: Less",
-        "Dal (regular portion)",
+        "Rajma Masala (less oil)",
         "Rice (2/4 portion)",
-        "Roti (2 pcs)",
-        "Dessert - Shahi Tukda"
+        "Roti (2 pcs)"
       ]
     },
     {
       "title": "Non-Veg",
       "items": [
-        "Shrimp in Coconut Curry",
-        "Heat: 3/5 | Spices: 2/5 | Oil: Medium",
-        "Dal (regular portion)",
+        "Chicken Bhuna Masala",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium-Low",
+        "Rajma Masala (small portion)",
         "Rice (2/4 portion)",
-        "Roti (2 pcs)",
-        "Dessert - Shahi Tukda"
+        "Roti (2 pcs)"
       ]
     },
     {
@@ -43,12 +30,8 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Mini Meal",
-      "price": "$6.95"
-    },
-    {
       "title": "Veg Regular",
-      "price": "$8.50"
+      "price": "$6.95"
     },
     {
       "title": "Non-Veg Meal Box",
