@@ -1,20 +1,22 @@
 {
   "menuForTheDay": [
     {
-      "title": "Veg Regular",
+      "title": "Veg Mini Meal",
       "items": [
-        "Rajma Masala (less oil)",
-        "Rice (2/4 portion)",
+        "Achari Paneer with Capsicum (small portion)",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium-Low",
+        "Dal (small portion)",
+        "Rice (1/4 portion)",
         "Roti (2 pcs)"
       ]
     },
     {
-      "title": "Non-Veg",
+      "title": "Veg Regular",
       "items": [
-        "Chicken Bhuna Masala",
+        "Achari Paneer with Capsicum (regular portion)",
         "Heat: 3/5 | Spices: 3/5 | Oil: Medium-Low",
-        "Rajma Masala (small portion)",
-        "Rice (2/4 portion)",
+        "Dal (regular portion)",
+        "Rice (half portion)",
         "Roti (2 pcs)"
       ]
     },
@@ -30,12 +32,12 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Regular",
+      "title": "Veg Mini Meal",
       "price": "$6.95"
     },
     {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "title": "Veg Regular",
+      "price": "$8.95"
     },
     {
       "title": "Weekend Special (Friday)",
