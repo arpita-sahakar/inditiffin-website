@@ -1,24 +1,24 @@
 {
-  "menuDate": "September 18th",
+  "menuDate": "September 22nd",
   "menuForTheDay": [
-    {
-      "title": "Veg Mini Meal",
-      "items": [
-        "Achari Paneer with Capsicum (small portion)",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium-Low",
-        "Dal (small portion)",
-        "Rice (1/4 portion)",
-        "Roti (2 pcs)"
-      ]
-    },
     {
       "title": "Veg Regular",
       "items": [
-        "Achari Paneer with Capsicum (regular portion)",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium-Low",
-        "Dal (regular portion)",
-        "Rice (half portion)",
-        "Roti (2 pcs)"
+        "Mixed Veg Bhuna Masala",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Less",
+        "Moong Dal",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Desi-Style Lemon Pepper Chicken",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
+        "Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -33,12 +33,12 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Mini Meal",
-      "price": "$6.95"
+      "title": "Veg Regular",
+      "price": "$7.95"
     },
     {
-      "title": "Veg Regular",
-      "price": "$8.95"
+      "title": "Non-Veg Meal Box",
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
