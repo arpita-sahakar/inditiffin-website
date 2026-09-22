@@ -1,12 +1,12 @@
 {
-  "menuDate": "September 22nd",
+  "menuDate": "September 23rd",
   "menuForTheDay": [
     {
-      "title": "Veg Regular",
+      "title": "Veg",
       "items": [
-        "Mixed Veg Bhuna Masala",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Less",
-        "Moong Dal",
+        "Rajasthani Pyaz Ki Sabji",
+        "Sprouts Salad - Mixed Sprouts, Onion, Tomato, Lemon, Spices & Herbs",
+        "Dal",
         "Rice",
         "Roti"
       ]
@@ -14,8 +14,8 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Desi-Style Lemon Pepper Chicken",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
+        "Egg Korma",
+        "Sprouts Salad - Mixed Sprouts, Onion, Tomato, Lemon, Spices & Herbs",
         "Dal",
         "Rice",
         "Roti"
@@ -33,7 +33,7 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Regular",
+      "title": "Veg Meal Box",
       "price": "$7.95"
     },
     {
