@@ -1,24 +1,13 @@
 {
-  "menuDate": "September 23rd",
+  "menuDate": "September 24th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Rajasthani Pyaz Ki Sabji",
-        "Sprouts Salad - Mixed Sprouts, Onion, Tomato, Lemon, Spices & Herbs",
-        "Dal",
-        "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Egg Korma",
-        "Sprouts Salad - Mixed Sprouts, Onion, Tomato, Lemon, Spices & Herbs",
-        "Dal",
-        "Rice",
-        "Roti"
+        "Aloo Paneer Stuffed Paratha",
+        "Tomato Garlic Chutney",
+        "Vegetable Pulao",
+        "Raita"
       ]
     },
     {
@@ -35,10 +24,6 @@
     {
       "title": "Veg Meal Box",
       "price": "$7.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
