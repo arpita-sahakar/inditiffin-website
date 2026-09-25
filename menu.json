@@ -1,13 +1,20 @@
 {
-  "menuDate": "September 24th",
+  "menuDate": "September 25th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Aloo Paneer Stuffed Paratha",
-        "Tomato Garlic Chutney",
-        "Vegetable Pulao",
-        "Raita"
+        "Kala Chana Masala",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Rohu Fish Curry (bone-in)",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -23,7 +30,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$6.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
