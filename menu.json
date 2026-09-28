@@ -1,20 +1,10 @@
 {
-  "menuDate": "September 25th",
+  "menuDate": "September 28th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Kala Chana Masala",
-        "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Rohu Fish Curry (bone-in)",
-        "Rice",
-        "Roti"
+        "Rajma Masala"
       ]
     },
     {
@@ -31,10 +21,6 @@
     {
       "title": "Veg Meal Box",
       "price": "$6.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
