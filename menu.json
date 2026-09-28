@@ -1,10 +1,23 @@
 {
-  "menuDate": "September 28th",
+  "menuDate": "September 29th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Rajma Masala"
+        "Afghani Paneer (Less Oil)",
+        "Dal Tadka",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Chicken Ghee Roast (Boneless)",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
+        "Dal Tadka",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -20,7 +33,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$6.95"
+      "price": "$8.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
