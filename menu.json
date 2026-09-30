@@ -1,21 +1,18 @@
 {
-  "menuDate": "September 29th",
+  "menuDate": "October 1st",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Afghani Paneer (Less Oil)",
-        "Dal Tadka",
-        "Rice",
-        "Roti"
+        "Dal Bati Churma",
+        "Prepared with desi ghee; bati generously dipped in ghee for a rich, authentic taste; very little to no oil used"
       ]
     },
     {
       "title": "Non-Veg",
       "items": [
-        "Chicken Ghee Roast (Boneless)",
+        "Mutton Korma",
         "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
-        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -33,11 +30,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.95"
+      "price": "$7.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "price": "$10.95"
     },
     {
       "title": "Weekend Special (Friday)",
