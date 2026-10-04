@@ -1,20 +1,13 @@
 {
-  "menuDate": "October 1st",
+  "menuDate": "October 5th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Dal Bati Churma",
-        "Prepared with desi ghee; bati generously dipped in ghee for a rich, authentic taste; very little to no oil used"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Mutton Korma",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
-        "Rice",
-        "Roti"
+        "Methi Paratha",
+        "Aloo Matar Ki Sukhi Sabji (Less Spices, Less Oil)",
+        "Dal Tadka",
+        "Rice"
       ]
     },
     {
@@ -31,10 +24,6 @@
     {
       "title": "Veg Meal Box",
       "price": "$7.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$10.95"
     },
     {
       "title": "Weekend Special (Friday)",
