@@ -1,13 +1,23 @@
 {
-  "menuDate": "October 5th",
+  "menuDate": "October 6th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Methi Paratha",
-        "Aloo Matar Ki Sukhi Sabji (Less Spices, Less Oil)",
-        "Dal Tadka",
-        "Rice"
+        "Kadhi Pakora (Regular Portion)",
+        "Rajasthani Dahi Mirchi (Small Portion, Oily)",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Mutton Keema Kaleji",
+        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
+        "Kadhi Pakora (Small Portion)",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -24,6 +34,10 @@
     {
       "title": "Veg Meal Box",
       "price": "$7.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$10.95"
     },
     {
       "title": "Weekend Special (Friday)",
