@@ -1,11 +1,11 @@
 {
-  "menuDate": "October 6th",
+  "menuDate": "October 7th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Kadhi Pakora (Regular Portion)",
-        "Rajasthani Dahi Mirchi (Small Portion, Oily)",
+        "Capsicum Paneer Ki Sabji",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -13,9 +13,8 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Mutton Keema Kaleji",
-        "Heat: 3/5 | Spices: 3/5 | Oil: Medium",
-        "Kadhi Pakora (Small Portion)",
+        "Shrimp Biryani",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -33,7 +32,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$8.95"
     },
     {
       "title": "Non-Veg Meal Box",
