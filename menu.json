@@ -1,10 +1,11 @@
 {
-  "menuDate": "October 7th",
+  "menuDate": "October 8th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Capsicum Paneer Ki Sabji",
+        "Lasooni Palak (Contains Nuts)",
+        "Heat: 3/5 | Oil: Less",
         "Masoor Dal",
         "Rice",
         "Roti"
@@ -13,7 +14,8 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Shrimp Biryani",
+        "Afghani Chicken (Boneless)",
+        "Heat: 3/5 | Oil: Medium",
         "Masoor Dal",
         "Rice",
         "Roti"
@@ -32,11 +34,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.95"
+      "price": "$7.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$10.95"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
