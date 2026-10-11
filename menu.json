@@ -1,20 +1,11 @@
 {
-  "menuDate": "October 9th",
+  "menuDate": "October 12th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Punjabi Choley (Prepared with Vegetable Oil)",
-        "Moong Dal",
-        "Pulao (Mild)",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Bengali-Style Chicken Curry (No sugar or mustard oil; prepared with vegetable oil)",
-        "Moong Dal",
+        "Shimla Mirch Besan Ki Sabji (Red Bell Pepper)",
+        "Masoor Dal",
         "Rice",
         "Roti"
       ]
@@ -33,10 +24,6 @@
     {
       "title": "Veg Meal Box",
       "price": "$7.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
