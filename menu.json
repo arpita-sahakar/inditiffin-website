@@ -1,11 +1,20 @@
 {
-  "menuDate": "October 12th",
+  "menuDate": "October 13th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Shimla Mirch Besan Ki Sabji (Red Bell Pepper)",
-        "Masoor Dal",
+        "Palak Paneer",
+        "Dal Tadka",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Bengali-Style Egg Curry (No mustard oil or sugar will be used in the preparation)",
+        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -23,7 +32,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$8.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$8.95"
     },
     {
       "title": "Weekend Special (Friday)",
