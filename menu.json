@@ -1,10 +1,10 @@
 {
-  "menuDate": "October 13th",
+  "menuDate": "October 14th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Palak Paneer",
+        "Veg Kolhapuri (Oil: Less)",
         "Dal Tadka",
         "Rice",
         "Roti"
@@ -13,7 +13,7 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Bengali-Style Egg Curry (No mustard oil or sugar will be used in the preparation)",
+        "Chicken Ghee Roast (Boneless) (Oil: Medium)",
         "Dal Tadka",
         "Rice",
         "Roti"
@@ -32,11 +32,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$8.95"
+      "price": "$7.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$8.95"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
