@@ -1,11 +1,11 @@
 {
-  "menuDate": "October 20th",
+  "menuDate": "October 23rd",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Kadhi Pakora",
-        "Kachumber Salad (Small Portion)",
+        "Soya Korma",
+        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -13,8 +13,8 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Bihari-Style Chicken Curry (No Mustard Oil Used)",
-        "Kadhi Pakora (Small Portion)",
+        "Rohu Fish Curry (Bone-In)",
+        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -42,5 +42,6 @@
       "title": "Weekend Special (Friday)",
       "price": "$11.99"
     }
-  ]
+  ],
+  "riceNote": "Extra rice (Small | Medium | Large portions) is available 🔴 FREE 🔴 of charge! Feel free to ask for more."
 }
