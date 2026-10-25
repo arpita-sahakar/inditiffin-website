@@ -1,21 +1,11 @@
 {
-  "menuDate": "October 23rd",
+  "menuDate": "October 26th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Soya Korma",
-        "Dal Tadka",
-        "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Rohu Fish Curry (Bone-In)",
-        "Dal Tadka",
-        "Rice",
+        "Chikkar Choley",
+        "Pulao",
         "Roti"
       ]
     },
@@ -35,13 +25,9 @@
       "price": "$7.95"
     },
     {
-      "title": "Non-Veg Meal Box",
-      "price": "$9.95"
-    },
-    {
       "title": "Weekend Special (Friday)",
       "price": "$11.99"
     }
   ],
-  "riceNote": "Extra rice (Small | Medium | Large portions) is available 🔴 FREE 🔴 of charge! Feel free to ask for more."
+  "riceNote": "Extra rice is available FREE of charge! Feel free to ask for more."
 }
