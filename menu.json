@@ -1,11 +1,22 @@
 {
-  "menuDate": "October 26th",
+  "menuDate": "October 28th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Chikkar Choley",
-        "Pulao",
+        "Aloo Beans Ki Sukhi Sabji",
+        "Cucumber Raita",
+        "Dal Tadka",
+        "Rice",
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Mutton Rezala",
+        "Dal Tadka",
+        "Rice",
         "Roti"
       ]
     },
@@ -23,6 +34,10 @@
     {
       "title": "Veg Meal Box",
       "price": "$7.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
+      "price": "$11.95"
     },
     {
       "title": "Weekend Special (Friday)",
