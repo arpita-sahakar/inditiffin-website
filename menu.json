@@ -1,23 +1,13 @@
 {
-  "menuDate": "October 28th",
+  "menuDate": "October 30th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Aloo Beans Ki Sukhi Sabji",
-        "Cucumber Raita",
-        "Dal Tadka",
+        "Paneer Jalfrezi",
+        "Dal",
         "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Mutton Rezala",
-        "Dal Tadka",
-        "Rice",
-        "Roti"
+        "Masala Roti (Mildly Spiced, Coated with Desi Ghee)"
       ]
     },
     {
@@ -33,11 +23,7 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
-      "price": "$11.95"
+      "price": "$8.95"
     },
     {
       "title": "Weekend Special (Friday)",
