@@ -1,13 +1,22 @@
 {
-  "menuDate": "October 30th",
+  "menuDate": "November 4th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Paneer Jalfrezi",
+        "Kadhi Pakora",
         "Dal",
         "Rice",
-        "Masala Roti (Mildly Spiced, Coated with Desi Ghee)"
+        "Roti"
+      ]
+    },
+    {
+      "title": "Non-Veg",
+      "items": [
+        "Shahi Egg Curry",
+        "Dal",
+        "Rice",
+        "Roti"
       ]
     },
     {
@@ -23,6 +32,10 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
+      "price": "$7.95"
+    },
+    {
+      "title": "Non-Veg Meal Box",
       "price": "$8.95"
     },
     {
