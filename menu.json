@@ -1,11 +1,11 @@
 {
-  "menuDate": "November 4th",
+  "menuDate": "November 12th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Kadhi Pakora",
-        "Dal",
+        "Thecha Paneer",
+        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -13,8 +13,8 @@
     {
       "title": "Non-Veg",
       "items": [
-        "Shahi Egg Curry",
-        "Dal",
+        "Chicken Kali Mirch",
+        "Dal Tadka",
         "Rice",
         "Roti"
       ]
@@ -32,11 +32,11 @@
   "lunchBoxPrices": [
     {
       "title": "Veg Meal Box",
-      "price": "$7.95"
+      "price": "$8.95"
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$8.95"
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
