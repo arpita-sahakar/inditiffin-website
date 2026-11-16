@@ -1,23 +1,22 @@
 {
-  "menuDate": "November 13th",
+  "menuDate": "November 16th",
   "menuForTheDay": [
     {
-      "title": "Veg - Option 1",
+      "title": "Veg",
       "items": [
-        "Lasooni Palak with Paneer (Contains Nuts)",
+        "Paneer Butter Masala",
         "Dal",
-        "Jeera Rice",
+        "Light Veg Pulao",
         "Roti"
       ]
     },
     {
-      "title": "Veg - Option 2",
+      "title": "Non-Veg",
       "items": [
-        "Bhuna Karela",
+        "Fish Bhuna Masala (Boneless)",
         "Dal",
         "White Rice",
-        "Roti",
-        "Raita"
+        "Roti"
       ]
     },
     {
@@ -32,12 +31,12 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Option 1 Meal Box",
+      "title": "Veg Meal Box",
       "price": "$8.95"
     },
     {
-      "title": "Veg Option 2 Meal Box",
-      "price": "$8.95"
+      "title": "Non-Veg Meal Box",
+      "price": "$9.95"
     },
     {
       "title": "Weekend Special (Friday)",
