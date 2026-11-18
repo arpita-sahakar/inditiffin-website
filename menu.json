@@ -1,21 +1,21 @@
 {
-  "menuDate": "November 16th",
+  "menuDate": "November 18th",
   "menuForTheDay": [
     {
       "title": "Veg",
       "items": [
-        "Paneer Butter Masala",
-        "Dal",
-        "Light Veg Pulao",
+        "Paneer in Butter Garlic",
+        "Dal Tadka",
+        "Rice",
         "Roti"
       ]
     },
     {
       "title": "Non-Veg",
       "items": [
-        "Fish Bhuna Masala (Boneless)",
-        "Dal",
-        "White Rice",
+        "Kolhapuri-Style Egg Curry",
+        "Dal Tadka",
+        "Rice",
         "Roti"
       ]
     },
@@ -36,7 +36,7 @@
     },
     {
       "title": "Non-Veg Meal Box",
-      "price": "$9.95"
+      "price": "$8.95"
     },
     {
       "title": "Weekend Special (Friday)",
