@@ -1,21 +1,13 @@
 {
-  "menuDate": "November 18th",
+  "menuDate": "November 20th",
   "menuForTheDay": [
     {
-      "title": "Veg",
+      "title": "Veg - Option 1",
       "items": [
-        "Paneer in Butter Garlic",
-        "Dal Tadka",
-        "Rice",
-        "Roti"
-      ]
-    },
-    {
-      "title": "Non-Veg",
-      "items": [
-        "Kolhapuri-Style Egg Curry",
-        "Dal Tadka",
-        "Rice",
+        "Schezwan Paneer (With Indian Tadka)",
+        "Aloo Methi Ki Sukhi Sabji",
+        "Toor Dal",
+        "White Rice",
         "Roti"
       ]
     },
@@ -31,11 +23,7 @@
   ],
   "lunchBoxPrices": [
     {
-      "title": "Veg Meal Box",
-      "price": "$8.95"
-    },
-    {
-      "title": "Non-Veg Meal Box",
+      "title": "Veg Option 1 Meal Box",
       "price": "$8.95"
     },
     {
